@@ -1,6 +1,7 @@
 package com.example.gridlayout;
 
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -45,7 +46,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // OPTIONAL: show a message when playing a sound
                 // showToast("Playing a sound");
-                
+
+                // Play a sound
+//                MediaPlayer mediaPlayer = MediaPlayer.create(this, R.raw.sound_file_1);
+//                mediaPlayer.start();
             }
         });
 
